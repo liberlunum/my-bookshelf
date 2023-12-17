@@ -1,0 +1,22 @@
+.menuContainer {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-family: Copperplate;
+    font-size: 20px;
+    color: #650063;
+}
+
+.homePage,
+.library,
+.addBook {
+    margin-right: 20px;
+}
+
+.homePage:hover ,
+.library:hover ,
+.addBook:hover {
+    color: #9a019a;
+    text-decoration: underline;
+    cursor: pointer;
+}

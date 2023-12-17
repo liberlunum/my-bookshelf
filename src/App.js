@@ -1,25 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import {NextUIProvider} from "@nextui-org/react";
+import Header from "./components/header/Header";
+import AddBook from "./components/body/add-book/AddBook";
+import Library from "./components/body/library/Library";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+
+            <div className="App">
+                <Header/>
+              {/*  <NextUIProvider> <AddBook/></NextUIProvider>*/}
+                <Library/>
+            </div>
+
+
+    );
 }
 
 export default App;

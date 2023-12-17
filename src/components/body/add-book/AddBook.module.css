@@ -1,0 +1,48 @@
+.addBookContainer {
+    font-family: Copperplate;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+
+.infoBookContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.bookAuthor,
+.bookName,
+.bookAnnotation,
+.bookReview {
+}
+
+.bookAuthor {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+}
+
+
+
+.bookName {
+
+}
+
+.bookAnnotation {
+
+}
+
+.bookReview {
+
+}
+
+.bookCover {
+
+}
+
+.addBookButton {
+
+}
